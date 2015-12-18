@@ -2238,7 +2238,6 @@ html {
   margin: auto;
 }
 .cat td {
-  padding-right: 85px;
   font-size: 14px;
   text-align: left;
   vertical-align: bottom;
@@ -2248,18 +2247,14 @@ html {
   color: #a5c8ef;
   vertical-align: top;
 }
-.cat tbody td {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  border-bottom: 1px dotted #989898;
-}
-.cat tr td:last-child {
-  padding-right: 0px;
+.cat tbody tr, td {
+  padding: 12px;
+  border-bottom: 1px solid #989898;
 }
 .cat tbody tr:last-child td {
   border-bottom: 0;
 }
-.cat .table-bordered {
+.cat .table-bordered td {
   border: 1px solid #e2e2e2;
 }
 .cat .table-non tbody td {
