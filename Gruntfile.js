@@ -5,7 +5,7 @@ module.exports = function(grunt) {
         stylus: {
             compile: {
                 files: {
-                    'dist/cat.css': 'stylus/cat.styl',
+                    'dist/cat.css': 'src/cat.styl',
                 }
             }
         },
